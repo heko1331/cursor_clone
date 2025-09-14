@@ -3,8 +3,9 @@
     height: 100dvh;
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
+    flex-direction: column;
 }
 
 .navigation{
@@ -17,7 +18,7 @@
 }
 
 .cursor{
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 48dvh;
@@ -63,10 +64,23 @@ a{
     width: 10dvh;
     height: 6dvh;  
     border-radius: 10%;
-    border: 1px solid grey;
+    gap: 3dvh;
+    
+}
+
+.sign-b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    color: black;   
+    background-color: white;
+    width: 10dvh;
+    height: 6dvh;  
+    border-radius: 10%;
 }
 
 .download{
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -75,6 +89,7 @@ a{
     width: 15dvh;
     height: 6dvh;
     border-radius: 5%;
+    gap: 3dvh;
     /*
     background-image: url("windows_logo.png");
     background-size: 10dvh;
@@ -82,10 +97,42 @@ a{
     background-position: left; */
 }
 
+.download-b{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: black;
+    color: white;
+    width: 15dvh;
+    height: 6dvh;
+    border-radius: 5%;
+}
 .in{
     color: black;
 }
 
 .down{
     color: white;
+}
+
+.gap{
+    gap: 5rem;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.pricing{
+    display: flex;
+    justify-content: start;
+    align-items: center;    
+}
+
+.title-pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color: black;
 }
